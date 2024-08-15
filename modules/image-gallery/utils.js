@@ -1,8 +1,9 @@
 import { CameraRoll } from "@react-native-camera-roll/camera-roll";
 import options from "./options";
-
-const { photoParams, albumParams } = options;
-
+const {
+  photoParams,
+  albumParams
+} = options;
 export const getPhotos = async (first, assetType, after, groupTypes, groupName, mimeTypes, fromTime, toTime, include) => {
   try {
     const response = await CameraRoll.getPhotos({
@@ -21,8 +22,7 @@ export const getPhotos = async (first, assetType, after, groupTypes, groupName, 
     console.log("Error : ", error);
   }
 };
-
-export const getAlbums = async (assetType) => {
+export const getAlbums = async assetType => {
   try {
     const response = await CameraRoll.getAlbums({
       assetType: assetType || albumParams.assetType

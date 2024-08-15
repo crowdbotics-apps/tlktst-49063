@@ -1,4 +1,3 @@
-
 const photoParams = {
   first: 3,
   assetType: "Photos",
@@ -10,11 +9,9 @@ const photoParams = {
   toTime: 0,
   include: []
 };
-
 const albumParams = {
   assetType: "Photos"
 };
-
 export default {
   photoParams: photoParams,
   albumParams: albumParams
