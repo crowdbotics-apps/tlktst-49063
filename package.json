@@ -16,6 +16,7 @@
     "@babel/polyfill": "^7.12.1",
     "@modules/image-gallery": "file:./modules/image-gallery/",
     "@modules/onboarding": "file:./modules/onboarding/",
+    "@modules/user-profile": "file:./modules/user-profile/",
     "@react-native-camera-roll/camera-roll": "5.0.2",
     "@react-native-masked-view/masked-view": "^0.2.9",
     "@react-navigation/native": "^6.1.6",
